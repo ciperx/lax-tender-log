@@ -1,0 +1,16 @@
+{
+  "name": "lax-tender-log",
+  "version": "0.1.0",
+  "description": "Append only tender event stream (JSONL) with validation, and a deterministic daily Markdown report section that counts each step and lists process anomalies.",
+  "type": "module",
+  "main": "src/tender.ts",
+  "types": "src/tender.ts",
+  "exports": { ".": "./src/tender.ts" },
+  "scripts": {
+    "test": "node --test test/*.test.ts"
+  },
+  "files": ["src", "README.md"],
+  "keywords": ["tender", "event-log", "jsonl", "append-only", "audit", "report"],
+  "license": "MIT",
+  "engines": { "node": ">=22.6" }
+}
